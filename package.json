@@ -1,0 +1,33 @@
+{
+  "name": "seminar-2024-frontend-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "types:check": "tsc",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "unused:check": "knip",
+    "check-all": "yarn types:check && yarn format:check && yarn lint:check && yarn unused:check"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react-swc": "3.7.0",
+    "@woohm402/eslint-config-react": "0.6.0",
+    "eslint": "9.9.1",
+    "knip": "5.29.1",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4",
+    "vite": "5.4.3"
+  },
+  "packageManager": "yarn@4.4.1"
+}
