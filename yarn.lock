@@ -748,9 +748,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@woohm402/eslint-config-base@npm:0.7.0":
-  version: 0.7.0
-  resolution: "@woohm402/eslint-config-base@npm:0.7.0"
+"@woohm402/eslint-config-base@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@woohm402/eslint-config-base@npm:0.7.1"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.3.0"
     eslint-plugin-simple-import-sort: "npm:12.1.1"
@@ -758,16 +758,16 @@ __metadata:
   peerDependencies:
     eslint: ^9.0.0
     typescript: ^5.0.0
-  checksum: 10c0/175506a693bdec4d73ed60b3acdde7c384e21997fffa5a646d4ac7bcd3984830dc4afe5f103aa50b329d97d4da8cb2c6f2969d65d384b67950772fb8ef5b68de
+  checksum: 10c0/20c8eb9d0d8bcaf18eea8a225a5bdaed92658ab905eb8fef0cb9eef5722927bd52f3a7bb0cb3793bd402e6767c7ffc50d75428a90a77d1c938e09df09f3b85cc
   languageName: node
   linkType: hard
 
-"@woohm402/eslint-config-react@npm:0.6.0":
-  version: 0.6.0
-  resolution: "@woohm402/eslint-config-react@npm:0.6.0"
+"@woohm402/eslint-config-react@npm:0.6.1":
+  version: 0.6.1
+  resolution: "@woohm402/eslint-config-react@npm:0.6.1"
   dependencies:
     "@eslint/compat": "npm:1.1.1"
-    "@woohm402/eslint-config-base": "npm:0.7.0"
+    "@woohm402/eslint-config-base": "npm:0.7.1"
     eslint-plugin-react: "npm:7.35.0"
     eslint-plugin-react-hooks: "npm:4.6.2"
   peerDependencies:
@@ -775,7 +775,7 @@ __metadata:
     eslint: ^9.0.0
     react: ^18.0.0
     typescript: ^5.0.0
-  checksum: 10c0/472af143eec66e54d63ec7ad832d2b14bbba6d1224c470eb4e33f586720bbf922d50dbed1074a5e3a6c449a44bc19dcaa3073012b3c27c463548a00fc1eb7527
+  checksum: 10c0/1c2d8a8d232bc90bd3c6e574f657fb1defc84c011cfb752855eedda38ce21dabaddac43ebf74d8ee6af6159e216d9aa7787dc739e9e8e20459d199a475637667
   languageName: node
   linkType: hard
 
@@ -3258,7 +3258,7 @@ __metadata:
     "@types/react": "npm:18.3.5"
     "@types/react-dom": "npm:18.3.0"
     "@vitejs/plugin-react-swc": "npm:3.7.0"
-    "@woohm402/eslint-config-react": "npm:0.6.0"
+    "@woohm402/eslint-config-react": "npm:0.6.1"
     eslint: "npm:9.9.1"
     knip: "npm:5.29.1"
     prettier: "npm:3.3.3"
