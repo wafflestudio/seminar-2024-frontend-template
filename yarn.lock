@@ -238,6 +238,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint/js@npm:9.11.0":
+  version: 9.11.0
+  resolution: "@eslint/js@npm:9.11.0"
+  checksum: 10c0/7403aeba28ba9cae3470d149b334a51375eb7fd850f167555c81cc72fe98e5cc5ac3059ccdbe68eb255a49d7498a7288d25429af0c7d20afeb4b3c0748349bb4
+  languageName: node
+  linkType: hard
+
 "@eslint/object-schema@npm:^2.1.4":
   version: 2.1.4
   resolution: "@eslint/object-schema@npm:2.1.4"
@@ -245,12 +252,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/plugin-kit@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@eslint/plugin-kit@npm:0.1.0"
+"@eslint/plugin-kit@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@eslint/plugin-kit@npm:0.2.0"
   dependencies:
     levn: "npm:^0.4.1"
-  checksum: 10c0/fae97cd4efc1c32501c286abba1b5409848ce8c989e1ca6a5bb057a304a2cd721e6e957f6bc35ce95cfd0871e822ed42df3c759fecdad72c30e70802e26f83c7
+  checksum: 10c0/00b92bc52ad09b0e2bbbb30591c02a895f0bec3376759562590e8a57a13d096b22f8c8773b6bf791a7cf2ea614123b3d592fd006c51ac5fd0edbb90ea6d8760c
   languageName: node
   linkType: hard
 
@@ -618,13 +625,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.3.5":
+"@types/react@npm:*":
   version: 18.3.5
   resolution: "@types/react@npm:18.3.5"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 10c0/548b1d3d7c2f0242fbfdbbd658731b4ce69a134be072fa83e6ab516f2840402a3f20e3e7f72e95133b23d4880ef24a6d864050dc8e1f7c68f39fa87ca8445917
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.3.8":
+  version: 18.3.8
+  resolution: "@types/react@npm:18.3.8"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/367312c9fe276639ecb142265e090a4dd04bb39f8d718cbab546de3f1ddcfddeff415e1147d0fc40f734badaa7420b7b109d511bd4304b2c4c9c36164612fdf8
   languageName: node
   linkType: hard
 
@@ -1582,16 +1599,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.10.0":
-  version: 9.10.0
-  resolution: "eslint@npm:9.10.0"
+"eslint@npm:9.11.0":
+  version: 9.11.0
+  resolution: "eslint@npm:9.11.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.11.0"
     "@eslint/config-array": "npm:^0.18.0"
     "@eslint/eslintrc": "npm:^3.1.0"
-    "@eslint/js": "npm:9.10.0"
-    "@eslint/plugin-kit": "npm:^0.1.0"
+    "@eslint/js": "npm:9.11.0"
+    "@eslint/plugin-kit": "npm:^0.2.0"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@humanwhocodes/retry": "npm:^0.3.0"
     "@nodelib/fs.walk": "npm:^1.2.8"
@@ -1627,7 +1644,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/7357f3995b15043eea83c8c0ab16c385ce3f28925c1b11cfcd6b2ede8faab3d91ede84a68173dd5f6e3e176e177984e6218de58b7b8388e53e2881f1ec07c836
+  checksum: 10c0/3438a78172bc667dc87bc4ad864671bd93231c82c9d366899ea3a77fc3444c8cdd158e7fe3ca1cfe4cb566045b1b36c0ccae9fc20efeb4b187f1a534075a1177
   languageName: node
   linkType: hard
 
@@ -2451,9 +2468,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"knip@npm:5.30.2":
-  version: 5.30.2
-  resolution: "knip@npm:5.30.2"
+"knip@npm:5.30.5":
+  version: 5.30.5
+  resolution: "knip@npm:5.30.5"
   dependencies:
     "@nodelib/fs.walk": "npm:1.2.8"
     "@snyk/github-codeowners": "npm:1.1.0"
@@ -2466,7 +2483,7 @@ __metadata:
     picocolors: "npm:^1.0.0"
     picomatch: "npm:^4.0.1"
     pretty-ms: "npm:^9.0.0"
-    smol-toml: "npm:^1.1.4"
+    smol-toml: "npm:^1.3.0"
     strip-json-comments: "npm:5.0.1"
     summary: "npm:2.1.0"
     zod: "npm:^3.22.4"
@@ -2477,7 +2494,7 @@ __metadata:
   bin:
     knip: bin/knip.js
     knip-bun: bin/knip-bun.js
-  checksum: 10c0/c1fc1b45c17c1f8478cd1bd60749b44bf83375c579f6ee77b037b9ef8adf5ef21d4ba483be438bbfa621fac0b85acc27666b0e5085f633e1458c0d6326093995
+  checksum: 10c0/6bf02301f63f99c3c94da918b32befe7ede93a386a9c012a46a2f8f6d2a3ce36e5cc4989ac5636057b637eec8bc6c6e5999f1e321ed6f603328538baa92531b0
   languageName: node
   linkType: hard
 
@@ -3226,17 +3243,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "seminar-2024-frontend-template@workspace:."
   dependencies:
-    "@types/react": "npm:18.3.5"
+    "@types/react": "npm:18.3.8"
     "@types/react-dom": "npm:18.3.0"
     "@vitejs/plugin-react-swc": "npm:3.7.0"
     "@woohm402/eslint-config-react": "npm:0.6.4"
-    eslint: "npm:9.10.0"
-    knip: "npm:5.30.2"
+    eslint: "npm:9.11.0"
+    knip: "npm:5.30.5"
     prettier: "npm:3.3.3"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     typescript: "npm:5.6.2"
-    vite: "npm:5.4.5"
+    vite: "npm:5.4.7"
   languageName: unknown
   linkType: soft
 
@@ -3326,7 +3343,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"smol-toml@npm:^1.1.4":
+"smol-toml@npm:^1.3.0":
   version: 1.3.0
   resolution: "smol-toml@npm:1.3.0"
   checksum: 10c0/442b4d033236ff6dd05bf91d57695fd9070a8221af080a5b2782cb2d9fad8bc31f698c61de5308a351907c1200202ba3ee51d52c5704f5349149e7c374f5fe90
@@ -3698,9 +3715,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.4.5":
-  version: 5.4.5
-  resolution: "vite@npm:5.4.5"
+"vite@npm:5.4.7":
+  version: 5.4.7
+  resolution: "vite@npm:5.4.7"
   dependencies:
     esbuild: "npm:^0.21.3"
     fsevents: "npm:~2.3.3"
@@ -3737,7 +3754,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/89c6459452fc238cdf8e99681b30996af171c9c557af476f96408a18a639fb5a0a6ee2d2257e005b21dc284edceb604595c34920cd4a007ad18f7ebafb654c76
+  checksum: 10c0/0ca7ca60f71c61f3855bbabf7e33909bec32933b35914d4d281813c728183e78e7ce5be05735a7671df3a994613d3881f520a32a80715faa92effb28deee9320
   languageName: node
   linkType: hard
 
